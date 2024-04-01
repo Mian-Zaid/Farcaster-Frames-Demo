@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     }
   ],
   image: `https://placehold.co/400/yellow/black?text=GreatApe+Frames+Yellow`,
-  post_url: `https://farmes.vercel.app/api/frame?id=1`,
+  post_url: `https://farcaster-frames-demo-mian-zaid.vercel.app/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {

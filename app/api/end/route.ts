@@ -13,8 +13,8 @@ export async function POST(req: NextRequest): Promise<Response> {
     path = '';
   }
   const headers = new Headers();
-  headers.set('Location', `https://farmes.vercel.app/`);
-  const response = NextResponse.redirect(`https://farmes.vercel.app/${path}`, {
+  headers.set('Location', `https://farcaster-frames-demo-mian-zaid.vercel.app/`);
+  const response = NextResponse.redirect(`https://farcaster-frames-demo-mian-zaid.vercel.app/${path}`, {
     headers: headers,
     status: 302,
   });

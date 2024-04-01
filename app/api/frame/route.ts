@@ -16,7 +16,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:button:2" content="Visit Youtube" />
     <meta property="fc:frame:button:2:action" content="post_redirect" />
-    <meta property="fc:frame:post_url" content="https://farmes.vercel.app/api/end" />
+    <meta property="fc:frame:post_url" content="https://farcaster-frames-demo-mian-zaid.vercel.app/api/end" />
   </head></html>`);
   } else {
   return new NextResponse(`<!DOCTYPE html><html><head>
@@ -24,7 +24,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://placehold.co/400/red/white?text=GreatApe+Frames+Red" />
     <meta property="fc:frame:button:1" content="Goto Blue Background" />
-    <meta property="fc:frame:post_url" content="https://farmes.vercel.app/api/frame?id=${nextId}" />
+    <meta property="fc:frame:post_url" content="https://farcaster-frames-demo-mian-zaid.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
   }
 }
